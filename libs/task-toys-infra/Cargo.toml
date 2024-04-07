@@ -1,0 +1,12 @@
+[package]
+name = "task-toys-infra"
+version.workspace = true
+edition.workspace = true
+description.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+task-toys-domain.workspace = true
+task-toys-usecase.workspace = true
+task-toys-adapter.workspace = true

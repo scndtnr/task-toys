@@ -1,0 +1,10 @@
+[package]
+name = "task-toys-usecase"
+version.workspace = true
+edition.workspace = true
+description.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+task-toys-domain.workspace = true
